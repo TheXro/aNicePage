@@ -31,6 +31,7 @@ body {
   left: 0;
   height: 100vh;
   background: #00000091;
+  pointer-events: none;
 }
 
 .workingArea {
@@ -47,6 +48,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 20px 0;
+  pointer-events: all;
 }
 
 .nav img{
@@ -66,7 +68,6 @@ body {
   font-size: 13px;
   font-weight: 600;
 }
-
 .hero{
   display: flex;
   justify-content: space-between;
@@ -86,6 +87,7 @@ body {
 .heroleft .elem h1{
   font-size: 6vw;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .heroleft{
@@ -99,9 +101,22 @@ body {
   width: 17%;
 }
 .heroleft button {
+  /* margin: 100px 0; */
+  margin-top: 80px;
+  background-color:white;
+  color: black;
   padding: 1vw 2vw;
   font-size: 2vw;
   font-family: 'Anton', sans-serif;
+  pointer-events: all;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.heroleft button:hover{
+  background: #c31919;
+  color: white;
+  cursor: pointer;
 }
 
 .heroright p{
@@ -116,5 +131,8 @@ body {
   height: 170px;
   margin-bottom: 80px;
   background-color: red;
+  background: url(https://images.unsplash.com/photo-1514136649217-b627b4b9cfb2?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvcnRyYWl0JTIwZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  background-position: center;
 }
 
