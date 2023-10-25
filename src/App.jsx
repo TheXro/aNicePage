@@ -14,9 +14,27 @@ function App() {
         <div className='top'>
           <div className='workingArea'>
             <Navbar />
-            <div className="hero">
-              <div className="heroleft"></div>
-              <div className="heroright"></div>
+            <div className='hero'>
+              <div className='heroleft'>
+                <div className='elem'>
+                  <h1>theXro</h1>
+                  <h1>theXro</h1>
+                  <h1>theXro</h1>
+                  <h1>theXro</h1>
+                </div>
+                <div className='elem'>
+                  <h1>gives zero</h1>
+                  <h1>gives zero</h1>
+                  <h1>gives zero</h1>
+                  <h1>gives zero</h1>
+                </div><div className='elem'>
+                  <h1>fucks.</h1>
+                  <h1>fucks.</h1>
+                  <h1>fucks.</h1>
+                  <h1>fucks.</h1>
+                </div>
+              </div>
+              <div className='heroright'></div>
             </div>
           </div>
         </div>
