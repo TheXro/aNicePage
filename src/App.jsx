@@ -33,8 +33,14 @@ function App() {
                   <h1>fucks.</h1>
                   <h1>fucks.</h1>
                 </div>
+                <button>Explore Now</button>
               </div>
-              <div className='heroright'></div>
+              <div className='heroright'>
+              <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+              <div className="imagediv"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. ReprePlaceat dolore accusantium, eligendi illum fugiat enim dolorum nesciunt fugit sequi sint molestias. Commodi, alias!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aspeio placeat. Similique officiis optio rerum quas!</p>
+              </div>
             </div>
           </div>
         </div>
